@@ -1,0 +1,33 @@
+{
+  "name": "lottie-zipper",
+  "type": "module",
+  "version": "1.0.1",
+  "description": "A command makes your lottie's file smallest.",
+  "author": "Psilo Lau <psilolau@foxmail.com>",
+  "keywords": [
+    "lottie",
+    "lottie compress",
+    "lottie zip",
+    "lottie zipper"
+  ],
+  "homepage": "https://github.com/psilocine/lottie-zipper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psilocine/lottie-zipper.git"
+  },
+  "bugs": "https://github.com/psilocine/lottie-zipper/issues",
+  "main": "index.js",
+  "bin": {
+    "lz": "./bin/lz.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^11.0.0",
+    "lottie-compress": "^1.1.4",
+    "strip-ansi": "^7.1.0"
+  }
+}
